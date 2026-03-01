@@ -9,7 +9,7 @@ import tempfile
 st.title("🎶 Pitch & Scale Adjuster with Visualization + Lyrics")
 
 # Upload audio file OR record from mic
-uploaded_file = st.file_uploader("Upload a song (MP3/WAV)", type=["mp3", "wav"])
+uploaded_file = st.file_uploader("Upload a song (MP3/WAV)", type=["mp3", "wav","MPEG"])
 recorded_file = st.audio_input("Record your voice")
 
 audio_source = uploaded_file or recorded_file
